@@ -1,0 +1,96 @@
+
+
+body{
+	background-image: url(http://cdn.pcwallart.com/images/super-mario-luigi-and-yoshi-wallpaper-4.jpg);
+	background-size: cover;
+	background-size: 1100px;
+
+}
+
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	background-color: ghostwhite;
+	width: 40%;
+	margin: 30px 90px 40px 400px;
+	font-family: 'Bungee', cursive; 
+	color: gold;
+	box-shadow: inset 0 0 20px gold;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+
+
+.marioTitle {
+	color: red;
+}
+
+.playerOne {
+	background-color: green;
+	width: 10%;
+	margin: 10px 50px 50px 150px;
+	padding: 30px 30px 30px 20px;
+	text-align: center;
+	font-family: 'Bungee', cursive; 
+	box-shadow: inset 0 0 20px #e3d3d3;
+	color: white;
+	display: inline-block;
+	float: left;
+	border-radius: 20px;
+}
+
+.playerTwo {
+	background-color: red;
+	width: 10%;
+	margin: 0px 50px 50px 100px;
+	padding: 30px 30px 30px 20px;
+	text-align: center;
+	font-family: 'Bungee', cursive;
+	box-shadow: inset 0 0 20px #e3d3d3;
+	color: white; 
+	float: left;
+	border-radius: 20px;
+
+}
+
+
+.board {
+	margin: 0px 10px 10px 450px;
+}
+
+
+p {
+	background-color: ghostwhite;
+	padding: 80px 40px 40px 80px;
+	margin: 10px 10px 10px 10px;
+	width: 5%;
+	color: blue;
+	box-shadow: inset 0 0 20px gold;
+	border-radius: 20px;
+	
+
+}
+
+.left {
+	float: left;
+	display: inline-block;
+} 
+
+.middle {
+	float: left;
+	display: inline-block;
+}
+
+.right {
+	float: left;
+	display: inline-block;
+}
+
+
+
+
+
+
+
