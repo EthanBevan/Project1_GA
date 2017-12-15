@@ -34,12 +34,43 @@
 
 	<h2 class = "playerTwo">Mario Player 1<span class="X"></span></h2>
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
-<div class="backgroundImageBoardOne">'url(https://78.media.tumblr.com/avatar_638fea9e3ede_128.png)'</div>
 
+<audio autoplay>
+  <source src="SuperMarioBros.mp3" type="audio/mpeg">
+</audio>
+ 
 
-<div class="backgroundImageBoardTwo">'url(https://www.mariowiki.com/images/d/d9/MK8_Mario_Icon.png)'</div>
+<audio id="myAudio">
+  <source src="mario_coin_sound.mp3" type="audio/mpeg">
+</audio>
+
+<board[0] onclick="playAudio()"> 
+<board[1] onclick="playAudio()"> 
+<board[2] onclick="playAudio()"> 
+<board[3] onclick="playAudio()"> 
+<board[4] onclick="playAudio()"> 
+<board[5] onclick="playAudio()"> 
+<board[6] onclick="playAudio()"> 
+<board[7] onclick="playAudio()"> 
+<board[8] onclick="playAudio()"> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+    x.play(); 
+} 
+
+</script>
+
 
 	<script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
